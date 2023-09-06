@@ -7,7 +7,6 @@ export default class Main extends Component {
         super(props);
         console.log("Hola desde el constructor");
     }
-
     componentDidMount(){
         console.log("Hola desde el componentDidMount");
     }
@@ -17,7 +16,6 @@ export default class Main extends Component {
         
 
         <main>
-
             <section className="py-5 text-center container">
                 <div className="row py-lg-5">
                     <div className="col-lg-6 col-md-8 mx-auto">
@@ -31,7 +29,6 @@ export default class Main extends Component {
                 </div>
             </section>
             <Cards />
-
         </main>
         )
     }
