@@ -14,7 +14,6 @@ export default class Main extends Component {
         console.log("Hola desde el render");
         return (
         
-
         <main>
             <section className="py-5 text-center container">
                 <div className="row py-lg-5">
@@ -28,6 +27,7 @@ export default class Main extends Component {
                     </div>
                 </div>
             </section>
+            {/* aqui se cargan todas las targetas y se importan */}
             <Cards />
         </main>
         )
